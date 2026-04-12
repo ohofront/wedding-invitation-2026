@@ -23,7 +23,7 @@ const KakaoShareButton = () => {
 
     // 💡 아래 주소를 Vercel에서 새로 배포한 본인의 주소로 변경해 주세요!
     // 마지막에 슬래시(/)는 빼고 적어주세요.
-    const MY_VERCEL_URL = 'https://본인의-새로운-vercel-주소.vercel.app';
+    const MY_VERCEL_URL = 'https://wedding-invitation-2026-theta.vercel.app';
 
     window.Kakao.Share.sendDefault({
       objectType: 'feed',
