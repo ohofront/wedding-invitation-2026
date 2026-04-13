@@ -2,13 +2,19 @@ const QuoteContent = () => {
   return (
     <div className='relative mb-10 text-base'>
       <div className='leading-8 break-keep'>
-        꽃 같은 그대,
+        <span className='italic'>
+          Счастье — это когда тебя понимают,
+          <br />и когда ты идёшь по жизни не один.
+        </span>
         <br />
-        나무 같은 나를 믿고 길을 나서자.
+        <span className='text-sm opacity-80'>- Иван Тургенев</span>
         <br />
-        우리는 참으로 복된 인연이다.
         <br />
-        <br />- 이수동, '동행' 中 -
+        행복이란 서로를 이해하는 것이며,
+        <br />
+        혼자가 아닌 함께 걷는 삶입니다.
+        <br />
+        <span className='text-sm opacity-80'>- 이반 투르게네프</span>
       </div>
     </div>
   );
