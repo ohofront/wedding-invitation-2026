@@ -29,7 +29,7 @@ const KakaoShareButton = () => {
       objectType: 'feed',
       content: {
         title: '김강현 ♥ 아나스타시아 결혼합니다',
-        description: '저희의 결혼식에 초대합니다.',
+        description: '저희의 결혼을 알립니다',
         imageUrl: `${MY_VERCEL_URL}/images/wedding.png`,
         link: {
           mobileWebUrl: MY_VERCEL_URL,
